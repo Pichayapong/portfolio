@@ -87,7 +87,13 @@ export function Navbar() {
         </nav>
 
         {/* Mobile Toggle */}
-        <div className="md:hidden flex items-center gap-4">
+        <div className="md:hidden flex items-center gap-3">
+          <button
+            onClick={switchLocale}
+            className="text-xs font-bold uppercase tracking-wider hover:text-blue-500 transition-colors w-8"
+          >
+            {locale === 'en' ? 'TH' : 'EN'}
+          </button>
           <button onClick={toggleTheme} className="p-2">
             {isDark ? <Sun size={20} /> : <Moon size={20} />}
           </button>
