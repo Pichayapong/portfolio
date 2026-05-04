@@ -46,7 +46,8 @@ export function Hero() {
               <ChevronRight size={18} />
             </button>
             <a
-              href="#"
+              href="/CV_Pichayapong_Toonkaew.pdf"
+              download
               className="px-6 py-3 rounded-xl border border-slate-300 dark:border-white/20 hover:bg-slate-100 dark:hover:bg-white/5 font-medium transition-colors flex items-center gap-2"
             >
               <Download size={18} />
