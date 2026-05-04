@@ -34,9 +34,10 @@ export async function generateMetadata({
     description:
       'Portfolio of Pichayapong Toonkaew, a Full-Stack Developer with 6+ years of experience.',
     alternates: {
+      canonical: `https://pichayapong.dev/${locale}`,
       languages: {
-        en: '/en',
-        th: '/th',
+        en: 'https://pichayapong.dev/en',
+        th: 'https://pichayapong.dev/th',
       },
     },
   }
