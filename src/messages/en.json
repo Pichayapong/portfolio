@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Software Engineer | Full-Stack Developer",
+    "description": "Delivering scalable, high-performance applications across logistics, e-commerce, and enterprise systems.",
+    "ctaPrimary": "Hire Me",
+    "ctaSecondary": "Download CV",
+    "available": "Available for work"
+  },
+  "about": {
+    "title": "About Me",
+    "content": "Web developer with over 6 years of experience delivering scalable, high-performance applications. Skilled in designing robust backends, building intuitive user interfaces, and optimizing data-driven workflows. Experienced in collaborating with cross-functional teams to transform complex requirements into reliable, business-focused solutions. Recognized for improving system efficiency, streamlining processes, and ensuring long-term maintainability of digital platforms.",
+    "yearsLabel": "Years Experience",
+    "yearsValue": "6+",
+    "techLabel": "Technologies",
+    "techValue": "20+",
+    "projectsLabel": "Projects Delivered",
+    "projectsValue": "15+"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "present": "Present"
+  },
+  "skills": {
+    "title": "Skills & Tech Stack"
+  },
+  "projects": {
+    "title": "Projects & Portfolio",
+    "viewProject": "View Project",
+    "internal": "Internal Enterprise Project",
+    "freelance": "Freelance Project",
+    "competition": "Competition Project"
+  },
+  "education": {
+    "title": "Education"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+    "send": "Send Message",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Your Message"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Designed & Built with Next.js & Tailwind CSS."
+  }
+}
