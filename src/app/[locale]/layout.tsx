@@ -7,6 +7,7 @@ import { routing } from '@/i18n/routing'
 import { AppProvider } from '@/context/AppContext'
 import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
+import { Analytics } from '@vercel/analytics/next'
 import '../globals.css'
 
 const geistSans = Geist({
@@ -78,6 +79,7 @@ export default async function LocaleLayout({
             <Footer />
           </AppProvider>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   )
