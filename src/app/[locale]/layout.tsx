@@ -31,9 +31,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   return {
-    title: 'Pichayapong Toonkaew — Full-Stack Developer',
+    title: 'Pichayapong Toonkaew — Software Engineer | Full-Stack Developer',
     description:
-      'Portfolio of Pichayapong Toonkaew, a Full-Stack Developer with 6+ years of experience.',
+      'Portfolio of Pichayapong Toonkaew, a Software Engineer & Full-Stack Developer with 6+ years of experience.',
     alternates: {
       canonical: `https://pichayapong.dev/${locale}`,
       languages: {
